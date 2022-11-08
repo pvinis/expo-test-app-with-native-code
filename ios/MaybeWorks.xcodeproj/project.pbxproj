@@ -10,6 +10,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1A08BBF9291AD49800062A70 /* MAYCalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A08BBF8291AD49800062A70 /* MAYCalendarModule.m */; };
 		1CE4A28E388A4785B5127595 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E018633BF4EDBAD059B87 /* noop-file.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		96905EF65AED1B983A6B3ABC /* libPods-MaybeWorks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-MaybeWorks.a */; };
@@ -25,6 +26,8 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MaybeWorks/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MaybeWorks/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MaybeWorks/main.m; sourceTree = "<group>"; };
+		1A08BBF8291AD49800062A70 /* MAYCalendarModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAYCalendarModule.m; sourceTree = "<group>"; };
+		1A08BBFA291AD4AB00062A70 /* MAYCalendarModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAYCalendarModule.h; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-MaybeWorks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaybeWorks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		679E018633BF4EDBAD059B87 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "MaybeWorks/noop-file.swift"; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-MaybeWorks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaybeWorks.debug.xcconfig"; path = "Target Support Files/Pods-MaybeWorks/Pods-MaybeWorks.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +57,8 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				1A08BBFA291AD4AB00062A70 /* MAYCalendarModule.h */,
+				1A08BBF8291AD49800062A70 /* MAYCalendarModule.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -294,6 +299,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
+				1A08BBF9291AD49800062A70 /* MAYCalendarModule.m in Sources */,
 				1CE4A28E388A4785B5127595 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
