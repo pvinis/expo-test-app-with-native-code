@@ -18,6 +18,7 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "wow.pvinis",
       "supportsTablet": true
     },
     "android": {
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7e238912-5ba6-41d1-adf7-e000c7c4f7f4"
+      }
     }
   }
 }
